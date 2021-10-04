@@ -1,0 +1,12 @@
+.stories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 13px;
+  grid-template-rows: 195px;
+}
+
+.stories__item {
+  background-color: #0a0a0a;
+  overflow: hidden;
+  border-radius: 5px;
+}/*# sourceMappingURL=stories.css.map */

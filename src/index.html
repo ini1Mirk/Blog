@@ -1,0 +1,187 @@
+---
+layout: default
+title: Home
+---
+
+
+
+<!-- Stories -->
+<div class="stories">
+    <div class="stories__item" data-modal="story-modal">
+        <img class="stories__preview" src="assets/images/image.jpg" alt="">
+        <div class="stories__title">Photo1</div>
+        <time class="stories__date" datetime="2020-09-21 19:21">21.09.2020</time>
+    </div>
+
+    <div class="stories__item">
+        <img class="stories__preview" src="assets/images/image.jpg" alt="">
+        <div class="stories__title">Photo2</div>
+        <time class="stories__date" datetime="2020-09-21 19:21">21.09.2020</time>
+    </div>
+
+    <div class="stories__item">
+        <img class="stories__preview" src="assets/images/image.jpg" alt="">
+        <div class="stories__title">Photo3</div>
+        <time class="stories__date" datetime="2020-09-21 19:21">21.09.2020</time>
+    </div>
+
+    <div class="stories__item">
+        <img class="stories__preview" src="assets/images/image.jpg" alt="">
+        <div class="stories__title">Photo4</div>
+        <time class="stories__date" datetime="2020-09-21 19:21">21.09.2020</time>
+    </div>
+</div><!-- /.stories -->
+
+                                <!-- Add Post -->
+<div class="add-post">
+    <form class="add-post__form" action="/" method="POST">
+        <textarea class="add-post__textarea"
+            name="post-text" placeholder="Быстрая публикация" data-autoresize></textarea>
+            <div class="add-post__form-actions">
+            <label class="add-post__file" for="add-post-file">
+                <input type="file" id="add-post-file">
+            </label>
+
+            <button class="add-post__send" type="submit">
+                Отправить
+            </button>
+        </div>
+    </form>
+</div>
+                                <!-- End Add Post -->
+
+                                <!-- Article -->
+
+<div class="post">
+    <div class="post__content">
+        <p class="post__description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Dolorum temporibus quo, iure ipsam quis dolore nihil accusantium tempora animi autem?
+        </p>
+    </div>
+
+    <div class="post__footer">
+        <ul class="post__data">
+            <li class="post__data-item" >
+                <time datetime="2021-06-21 18.00">21.06.2021</time>
+            </li>
+        </ul>
+
+    </div>
+</div> <!--End.Post-Add-->
+
+<article class="post">
+    <div class="post__header post__header--preview">
+        <a href="post.html">
+            <img class="post__preview" src="assets/images/image.jpg" alt="Lorem ipsum dolor sit amet.">
+        </a>
+    </div>
+
+    <div class="post__content">
+        <h2 class="post__title">
+            <a href="post.html">HTML</a>
+        </h2>
+        <p class="post__description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum temporibus quo, iure ipsam quis dolore nihil accusantium tempora animi autem?
+        </p>
+    </div>
+
+    <div class="post__footer">
+        <ul class="post__data">
+            <li class="post__data-item" >
+                <time datetime="20-06-2021 18.00">21.06.2021</time>
+            </li>
+            <li class="post__data-item" >
+                <a href="#">HTML</a>
+            </li>
+        </ul>
+        <a href="post.html" class="post__read">Читать</a>
+    </div>
+</article>
+                    <!-- Video-Post -->
+<article class="post">
+    <div class="post__header">
+        <div class="embed">
+            <iframe
+            src="https://www.youtube.com/embed/UmYce41wlx8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write;
+            encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
+    <div class="post__content">
+        <h2 class="post__title">
+            <a href="post.html">I love music</a>
+        </h2>
+    </div>
+
+    <div class="post__footer">
+        <ul class="post__data">
+            <li class="post__data-item" >
+                <time datetime="20-06-2021 18.00">21.06.2021</time>
+            </li>
+            <li class="post__data-item" >
+                <a href="#">Video</a>
+            </li>
+            <li class="post__data-item" >
+                <a href="#">Music</a>
+            </li>
+
+        </ul>
+
+        <a href="#" class="post__read">Оставить комментарий</a>
+    </div>
+</article>
+
+<article class="post">
+    <div class="post__header post__header--preview">
+        <a href="post.html">
+            <img class="post__preview" src="assets/images/image.jpg" alt="Lorem ipsum dolor sit amet.">
+        </a>
+    </div>
+
+    <div class="post__content">
+        <h2 class="post__title">
+            <a href="post.html">JS</a>
+        </h2>
+        <p class="post__description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum temporibus quo, iure ipsam quis dolore nihil accusantium tempora animi autem?
+        </p>
+    </div>
+
+    <div class="post__footer">
+        <ul class="post__data">
+            <li class="post__data-item" >
+                <time datetime="2021-06-21 18.00">21.06.2021</time>
+            </li>
+            <li class="post__data-item" >
+                <a href="#">JS</a>
+            </li>
+        </ul>
+        <a href="post.html" class="post__read">Читать</a>
+    </div>
+</article>
+
+                        <!-- Pagination -->
+
+<ul class="pagination">
+    <li class="pagination__item">
+        <a class="pagination__link" href="#">&lt;</a>
+    </li>
+    <li class="pagination__item">
+        <a class="pagination__link" href="#">1</a>
+    </li>
+    <li class="pagination__item">
+        <a class="pagination__link active" href="#">2</a>
+    </li>
+    <li class="pagination__item">
+        <a class="pagination__link" href="#">3</a>
+    </li>
+    <li class="pagination__item">
+        <a class="pagination__link" href="#">&gt;</a>
+    </li>
+</ul>

@@ -1,0 +1,11 @@
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tags__item {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  background-color: #008080;
+  border-radius: 3px;
+}/*# sourceMappingURL=tags.css.map */
